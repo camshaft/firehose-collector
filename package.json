@@ -1,7 +1,9 @@
 {
-  "name": "firehose-event-collector",
+  "name": "firehose-collector",
+  "description": "lightweight event collector using AWS firehose",
+  "license": "MIT",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "dist/index.prepack.mjs",
   "license": "MIT",
   "dependencies": {
     "@protobufjs/base64": "^1.1.2",
